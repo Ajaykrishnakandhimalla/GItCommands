@@ -1,0 +1,39 @@
+1. To Initialize git  
+     
+          git init
+
+2. To Configure User Details
+
+          git config --global user.email <Emial_ID>
+          
+          git config --global user.name <UserName>
+
+3. To push code form Workspace to Staging Area
+
+          git Add <FileName>
+                
+                  or
+
+          git Add <FileName1> <FileName2> <FileName3>
+
+                  or
+  
+          git Add .
+    
+                  or
+
+          git Add *
+
+4. To Push code from Staging Area to Loical Repository
+
+          git commit -m <"MESSAGE">
+
+5. To Push code from Local Repository to Centralised Repository
+
+          git remote origin <URL>
+
+          git push -u origin master
+
+6. To check the status 
+
+          git Status
