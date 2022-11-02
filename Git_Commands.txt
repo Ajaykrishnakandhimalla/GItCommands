@@ -30,10 +30,29 @@
 
 5. To Push code from Local Repository to Centralised Repository
 
-          git remote origin <URL>
+          git remote add origin <URL>
 
           git push -u origin master
 
 6. To check the status 
 
           git Status
+
+7. To check the logs in a git
+
+           git log
+
+8. To pull files from Centralised repository to Local Repository
+
+           git clone <URL>
+
+9. To pull specific files from Centralised repository to Local Repository
+
+           git clone <URL> <FileName>
+
+                    or
+
+           git clone <URL> <File1> <File2>.......
+
+
+
