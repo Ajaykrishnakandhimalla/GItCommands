@@ -1,0 +1,29 @@
+To see logs in a repository
+
+    ---> git log
+
+To see all logs in oneline
+
+    ---> git log --oneline
+
+To see specific author logs
+
+    ---> git log --author=<AuthorName>
+
+To see logs on specific date
+
+    ---> git log --since=<DateFormat>
+
+To see specific author logs on specific Dates
+
+    ---> git log --author=<AuthorName> --since=<DateFormat>
+
+To see specific author logs on Specific Dates in  oneline
+
+    ---> git log --author=<AuthorName> --since<DateFormat> --oneline
+
+To see logs from start date to end date
+
+    ---> git log --since<DateFormat> --until<DateFormat>
+
+
