@@ -1,0 +1,34 @@
+To add files from staging area to stash memory 
+
+       --  git stash save <MESSAGE>
+
+Above command adds all the files from Staging Area to Stach memory.
+
+
+To see the files list in stash memory
+
+       -- git stash list
+
+To see the particular file in stash memory
+
+        -- git stash show <COMMIT_ID>
+
+To get the files from Stash memory to staging area
+
+        -- git stash apply (By default we get copy of position 0 file)
+
+        -- git stash apply <Commit_Id>    (To get particular copy of file from stash memory) 
+
+Above commands get copy of files from stash memory to Staging area
+
+
+        -- git stash pop (By default it will cut and copy position 0 file)
+
+        -- git stash pop <Commit_ID> (To get particular file from stash memory)
+
+To delete files in stash memory
+
+        -- git stash drop (By default it deletes position 0 file)
+
+        -- git stash drop <Commit_ID> (It delets specific position file in stash memory)
+
